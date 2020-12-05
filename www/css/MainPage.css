@@ -1,6 +1,23 @@
-img
+/* The image serving as background of all pages */
 
+.container
 {
-	position: auto;
-	text-align: center;
+   position: relative;
+   text-align: center;
+   
+}
+
+.text-block	
+{
+	position: absolute;
+	background-color: rgb(200,255,200);
+	border-style: solid;
+	border-color: green;
+    border-width: 0px 0px 0px 10px;
+	color: darkgreen;
+	bottom: 40%;
+	top: 40%;
+	left: 10%;
+	right: 40%;
+	
 }
