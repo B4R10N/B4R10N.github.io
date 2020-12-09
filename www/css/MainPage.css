@@ -1,23 +1,17 @@
-/* The image serving as background of all pages */
-
-.container
+#header
 {
-   position: relative;
-   text-align: center;
-   
+	font-size: 30;
+	font-family: Georgia, serif;
+	height: 2rem;
 }
 
-.text-block	
+body 
 {
-	position: absolute;
-	background-color: rgb(200,255,200);
-	border-style: solid;
-	border-color: green;
-    border-width: 0px 0px 0px 10px;
-	color: darkgreen;
-	bottom: 40%;
-	top: 40%;
-	left: 10%;
-	right: 40%;
+	background-image: url('file:///C:/Users/alexa/Downloads/cygsdk-20200926/cygsdk/home/alexa/DT_assig2/www/images/nature.jpg');
+	text-align: center;
+}
+
+h1
+{
 	
 }
