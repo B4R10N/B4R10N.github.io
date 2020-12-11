@@ -34,12 +34,61 @@ nav ul li a:hover
 
 body 
 {
-	background-image: url('file:///C:/Users/alexa/Downloads/cygsdk-20200926/cygsdk/home/alexa/DT_assig2/www/images/nature.jpg');
 	text-align: center;
 	font-family: 'Titillium Web', Calibri, sans-serif;
+	background-image: url('../images/nature.jpg');
 }
 
+.flex-container
+{
+	display: flex;
+	flex-flow: row;
+    background-color: rgba(255,255,255,0.3);
+    width: 99.69%;
+    height: 350px;
+    text-align: center;	
+}
 
+.flex-container > div 
+{
+	background-color: rgba(255,255,255,0.5);
+	width: 250px;
+	height: 200px;
+	margin: 90px;
+	text-align: center;
+	line-height: 50px;
+	font-size:20px;
+}
+
+.flex-container > div:hover
+{
+	background-color: rgba(200,255,200,0.4);
+	color: white;
+}
+
+#facebook
+{
+	height: 125px;
+	width: 100px;
+}
+
+#instagram
+{
+    height: 125px;
+	width: 100px;
+}
+
+#steam
+{
+    height: 125px;
+	width: 100px;
+}
+
+#discord
+{
+	height: 125px;
+	width: 100px;
+}
 
 footer
 {
