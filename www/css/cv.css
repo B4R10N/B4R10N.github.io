@@ -39,17 +39,9 @@ body
 	font-family: 'Titillium Web', Calibri, sans-serif;
 }
 
-#Alex
-{
-	height: 275px;
-	width: 180px;
-}
 
-#intro
-{
-	background-color: rgba(255,255,255,0.5);
-	border-radius:750px;
-}
+
+
 
 footer
 {
@@ -60,4 +52,3 @@ footer
 	background-color: rgba(255,255,255, 0.5);
 	text-align: left;
 	
-}
