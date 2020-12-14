@@ -20,39 +20,108 @@
 	 
       <body>
 
-         <h1><span style="text-shadow: 2px 2px 5px green; color:white; font-weight:200;"> If you wish to contact me, please do so by clicking the following links: </span></h1>
+         <h1> <span style="text-shadow: 2px 2px 5px green; color:white; font-weight:200;"> If you wish to contact me, please do so by clicking the following links:</span>
+		 </h1>
 
-		  <div class="flex-container">
+	        <div class="flex-container">
 	         			    
-              <div>Facebook
-	  
-	             <a href="https://www.facebook.com/alexanderdaniel.nunesgoncalves/">
-		            <img id="facebook" src="images/facebook.png" width="170px" height="100px">
-		         </a>
-              </div>			 
+	            <div onmouseenter="playFacebookAudio()"> Facebook
+			    
+	                  <a href="https://www.facebook.com">
+		                 <img id="facebook" src="images/facebook.png">
+		              </a>
+					 
+				   <audio id="facebook-notification">
+				   
+				     <source src="downloads/facebook-notification.mp3" type="audio/mpeg"/>
+					
+				   </audio>	
+				  
+				  <script>
+					
+					function playFacebookAudio()
+					{
+					  var audio = document.getElementById("facebook-notification");
+					  audio.volume = 0.4;
+					  audio.play();
+					}
+					 
+				  </script>   
+					   
+                </div>			 
 			 
 	  
-	          <div>Instagram
+	          <div onmouseenter="playInstagramAudio()">Instagram
 			   
-			     <a href="https://www.instagram.com/alexus_g97/">
-		             <img id="instagram" src="images/instagram.png" width="170px" height="100px">
+                 <a href="https://www.instagram.com">
+		             <img id="instagram" src="images/instagram.png">
 		         </a>    
-			   			   
+			   			<audio id="instagram-notification">
+    
+                         <source src="downloads/instagram-notification.mp3" type="audio/mpeg"/>	
+						   
+						</audio>  
+
+                    <script>
+					
+					function playInstagramAudio()
+					{
+					  var audio = document.getElementById("instagram-notification");
+					  audio.play();
+					}
+					 
+				    </script>                      
+					 
 			  </div>
 			  
-			  <div>Steam
+			  <div onmouseenter="playSteamAudio()">Steam
 			     
 				 <a href="https://steamcommunity.com/profiles/76561198047167954/">
-		             <img id="steam" src="images/steam.png" width="170px" height="100px">
+		             <img id="steam" src="images/steam.png">
 		         </a>    
-	  
+				 
+				        <audio id="steam-notification">
+				   
+				         <source src="downloads/steam-notification.mp3" type="audio/mpeg"/>
+	                
+                        </audio>
+
+                	  <script>
+					
+					function playSteamAudio()
+					{
+					  var audio = document.getElementById("steam-notification");
+					  audio.volume = 0.1;
+					  audio.play();
+					}
+					 
+				  </script> 
+					
 	          </div>
 	  
-	      	  <div>B4R10N#0913
+	      	  <div onmouseenter="playDiscordAudio()">B4R10N#0913
 			  
 			     <a href="https://discord.com/">
-		             <img id="discord" src="images/discord.png" width="170px" height="100px">
+		             <img id="discord" src="images/discord.png">
 		         </a>    
+				 
+				         <audio id="discord-notification">
+						    
+							<source src="downloads/discord-notification.mp3" type="audio/mpeg"/>
+                        
+                         </audio>
+
+                      <script>
+					
+					function playDiscordAudio()
+					{
+					  var audio = document.getElementById("discord-notification");
+					  audio.volume = 0.2;
+					  audio.play();
+					}
+					 
+				  </script> 
+                    					
 	          </div>
 	      
 		  </div>
