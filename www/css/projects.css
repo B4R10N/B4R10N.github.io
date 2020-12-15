@@ -39,8 +39,77 @@ body
 	font-family: 'Titillium Web', Calibri, sans-serif;
 }
 
+.mySlides
+{
+	display: none;
+}
 
+img
+{
+	vertical-align: middle;
+	max-height: 500px;
+	border-style: solid;
+	border-color: rgba(255,255,255,1);
+	border-radius: 15px;
+}
 
+.slideshow-containerPier
+{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	
+}
+
+.text
+{
+	color: rgba(200,255,200,1);
+	text-decoration: underline;
+	font-size: 15px;
+	font-family: 'Titillium Web', Calibri, sans-serif;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	text-align: center;
+}
+	
+.dot
+{
+    height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active
+{
+    background-color: lightgreen;
+}	
+
+.fade
+{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 
 
 footer

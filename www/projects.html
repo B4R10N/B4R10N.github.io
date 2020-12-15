@@ -11,17 +11,166 @@
 				         <li><a href="index.html">Home</a></li>
 					     <li><a href="contact.html">Contact</a></li>
 					     <li><a href="cv.html">CV</a></li>
-					     <li><a href="projects.html">Project</a></li>
+					     <li><a href="projects.html">Projects</a></li>
 				     </ul>
 			     </nav>
-		      </div> 
-   
+		       </div> 
+     
       </head>
-	 
+	   
+	   <br>
+	  
       <body>
-	  
-	  
-	  
+	    
+		 <div class="slideshow-container">
+		     
+			 <div class="mySlides fade">
+			 
+			     <img src="images/PierTF2.jpg" style="100%">
+			     <div class="text">Pier 1</div>
+		
+		     </div>
+			 
+			 <div class="mySlides fade">
+			 
+			     <img src="images/Pier_2_TF2.jpg" style="100%">
+			     <div class="text">Pier 2</div>
+				 
+		     </div>
+			 
+			 <div class="mySlides fade">
+		         
+			     <img src="images/Pier_3_TF2.jpg" style="100%">
+			     <div class="text">Pier 3</div>
+				 
+		     </div>
+			 
+			 <div class="mySlides fade">		  
+			     
+				 <img src="images/Pier_Overview.png " style="100%">
+			     <div class="text">Pier Overview</div>
+				 
+		     </div>
+			 
+			 <div class="mySlides fade">		  
+			     
+				 <img src="images/Harvest_1_TF2.PNG " style="100%">
+			     <div class="text">Harvest 1</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Harvest_2_TF2.jpg " style="100%">
+			     <div class="text">Harvest 2</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Harvest_3_TF2.PNG " style="100%">
+			     <div class="text">Harvest 3</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Harvest_Overview.jpg " style="100%">
+			     <div class="text">Harvest Overview</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Upward_1_TF2.png " style="100%">
+			     <div class="text">Upward 1</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Upward_2_TF2.png " style="100%">
+			     <div class="text">Upward 2</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Upward_3_TF2.png " style="100%">
+			     <div class="text">Upward 3</div>
+				 
+		     </div>
+			 
+			  <div class="mySlides fade">		  
+			     
+				 <img src="images/Upward_Overview.png " style="100%">
+			     <div class="text">Upward Overview</div>
+				 
+		     </div>
+			 
+			 
+		 
+		 </div>
+		 
+		 <br>
+		 
+		 <div style="text-align:center">
+		     <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+			 <span class="dot"></span>
+		 </div>
+		 
+		 <script>
+             
+			 var slideIndex = 0;
+             showSlides();
+
+             function showSlides() 
+			 {
+               var i;
+               var slides = document.getElementsByClassName("mySlides"); //Get all slides
+               var dots = document.getElementsByClassName("dot"); //get all dots
+  
+               for (i = 0; i < slides.length; i++) 
+			   {
+                 slides[i].style.display = "none"; //makes slides not visable - same as ccs/style setting display to none  
+               }
+             
+			   slideIndex++; //add 1 to the value of slideIndex
+             
+			   if (slideIndex > slides.length) 
+			   {
+			     slideIndex = 1
+			   }    //corrects slideIndex if value is greater than total n.o of slides 
+			 
+               for (i = 0; i < dots.length; i++) 
+			   {
+                 dots[i].className = dots[i].className.replace(" active", ""); //replaces the active class with nothing
+               }
+  
+               slides[slideIndex-1].style.display = "block"; //makes the slide visable - same as ccs/style setting display to block 
+               dots[slideIndex-1].className += " active"; //adds active class to the dot
+               setTimeout(showSlides, 2000); // Change image every 2 seconds, calls subroutine after 2000 miliseconds
+              }
+         </script>
+		 
+		 
+		 
 	  </body>
 	  
-	  <footer> © Copyright 2020 Alexander Nunes</footer> 
+	  <br>
+	  <br>
+	  <br>
+	  
+	  <footer> © Copyright 2020 Alexander Nunes </footer>
+	  
+</html>	  
