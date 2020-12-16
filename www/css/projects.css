@@ -32,9 +32,19 @@ nav ul li a:hover
 	color: white;
 }
 
+#firstP
+{
+	color: white;
+	font-family: 'Titillium Web', Calibri, sans-serif;
+	text-shadow: 2px 2px 5px black; 
+} 
+
 body 
 {
 	background-image: url('../images/nature.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
 	text-align: center;
 	font-family: 'Titillium Web', Calibri, sans-serif;
 }
@@ -69,8 +79,8 @@ img
 	font-family: 'Titillium Web', Calibri, sans-serif;
 	font-weight: bold;
 	padding: 8px 12px;
-	position: absolute;
-	bottom: 100px;
+	position: relative;
+	bottom: 40px;
 	width: 100%;
 	text-align: center;
 }
@@ -111,10 +121,47 @@ img
   to {opacity: 1}
 }
 
+#disclaimer
+{
+	color: rgba(200,255,200,1);
+	font-family: 'Titillium Web', Calibri, sans-serif;
+	text-shadow: 2px 2px 5px black; 
+	font-style: italic;
+	font-size: 13px;
+	text-decoration: underline;
+	padding: 8px 12px;
+	position: relative;
+	bottom: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+#secondP
+{
+	color: white;
+	font-family: 'Titillium Web', Calibri, sans-serif;
+	text-shadow: 2px 2px 5px black; 
+} 
+
+#videoDesc
+{
+	color: rgba(200,255,200,1);
+	font-family: 'Titillium Web', Calibri, sans-serif;
+	text-shadow: 2px 2px 5px black;
+}
+
+#thirdP
+{
+	color: white;
+	font-family: 'Titillium Web', Calibri, sans-serif;
+	text-shadow: 2px 2px 5px black; 
+} 
+
+
 
 footer
 {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 98.5%;
 	height:30px;

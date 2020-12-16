@@ -19,7 +19,14 @@
       </head>
 	   
 	   <br>
-	  
+	   
+	   <p id="firstP">Below you can witness previous works that I have created for my all-time favourite game: Team Fortress 2.<br>
+	       I have been playing the game for 8 years and understand it quite deeply - therefore taking advantage of my knowledge <br>
+		   of the game I always aim to provide the best and most balanced experience whenever designing maps.</p>
+	      
+		   <br>
+		   
+			  
       <body>
 	    
 		 <div class="slideshow-container">
@@ -112,7 +119,9 @@
 		 
 		 </div>
 		 
-		 <br>
+		 <div id="disclaimer">*Disclaimer: These maps were not actually fabricated by me! I simply used these screenshots for assignment purposes, original authors will be referenced in the report</div>
+		 
+		 
 		 
 		 <div style="text-align:center">
 		     <span class="dot"></span>
@@ -137,37 +146,55 @@
              function showSlides() 
 			 {
                var i;
-               var slides = document.getElementsByClassName("mySlides"); //Get all slides
-               var dots = document.getElementsByClassName("dot"); //get all dots
+               var slides = document.getElementsByClassName("mySlides"); 
+               var dots = document.getElementsByClassName("dot"); 
   
                for (i = 0; i < slides.length; i++) 
 			   {
-                 slides[i].style.display = "none"; //makes slides not visable - same as ccs/style setting display to none  
+                 slides[i].style.display = "none"; 
                }
              
-			   slideIndex++; //add 1 to the value of slideIndex
+			   slideIndex++; 
              
 			   if (slideIndex > slides.length) 
 			   {
 			     slideIndex = 1
-			   }    //corrects slideIndex if value is greater than total n.o of slides 
+			   }  
 			 
                for (i = 0; i < dots.length; i++) 
 			   {
-                 dots[i].className = dots[i].className.replace(" active", ""); //replaces the active class with nothing
+                 dots[i].className = dots[i].className.replace(" active", "");
                }
   
-               slides[slideIndex-1].style.display = "block"; //makes the slide visable - same as ccs/style setting display to block 
-               dots[slideIndex-1].className += " active"; //adds active class to the dot
-               setTimeout(showSlides, 2000); // Change image every 2 seconds, calls subroutine after 2000 miliseconds
+               slides[slideIndex-1].style.display = "block"; 
+               dots[slideIndex-1].className += " active"; 
+               setTimeout(showSlides, 4000); 
               }
          </script>
+		 
+		 <p id="secondP">In order to achieve a more modern and balanced map design in present TF2 it is very important to avoid features that are <br>
+		   often seen in older map designs - Chokepoints in vital transversal areas and the abundance of these (e.g. Goldrush in it's <br>
+		   entirety), exaggeratedly wide open spaces without cover, poor spawn and resource (health kits/ammo) placement, tight in-doors <br>
+		   environments, lack of map verticality, large Sniper sightlines and the list goes on.</p>
+		   
+		 <p id="videoDesc">In the following video a TF2 player gives his thought on all the offically accepted maps found in the game, including the<br>
+            maps mentioned showcased above. It is recommended to search for the specific parts of the video due to its duration.</p>		 
+		   
+		   <br>
+		   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5gpW6e86s0M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+		 <p id="thirdP">In modern TF2, experienced/veteran players seldom prefer to play in maps where a delicate balance of good supply placement <br>
+		   and chokeless areas are in place. This is also beneficial to newer players since they will be accostumed to manage around <br>
+		   maps where good map awareness will be developed in the right manner. In older maps, chokepoints are abused by experienced <br>
+           players by playing Demoman or Soldier and repeatedly fire explosives at these in order to snag kills on unaware players. <br>
+		   This makes map navigation and team pushes extremely difficult due to a simple contraint given by how the map is layed out.</p>
 		 
 		 
 		 
 	  </body>
 	  
-	  <br>
 	  <br>
 	  <br>
 	  
