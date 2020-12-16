@@ -99,8 +99,8 @@ h2
 
 footer
 {
-	position: relative;
-	bottom: 0;
+	position: static;
+	bottom: 0;	
 	width: 98.5%;
 	height:30px;
 	background-color: rgba(255,255,255, 0.5);
