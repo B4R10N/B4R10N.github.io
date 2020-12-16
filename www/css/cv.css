@@ -35,6 +35,9 @@ nav ul li a:hover
 body 
 {
 	background-image: url('../images/nature.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
 	text-align: center;
 	font-family: 'Titillium Web', Calibri, sans-serif;
 }
