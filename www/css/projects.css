@@ -162,7 +162,7 @@ img
 
 footer
 {
-	position: static;
+	position: fixed;
 	bottom: 0;
 	width: 98.5%;
 	height:30px;

@@ -99,7 +99,7 @@ h2
 
 footer
 {
-	position: static;
+	position: fixed;
 	bottom: 0;	
 	width: 98.5%;
 	height:30px;
@@ -107,3 +107,14 @@ footer
 	text-align: left;
 	color: black;
 }	
+
+#content-wrap
+{
+	padding-bottom: 30px;
+}
+
+#page-container
+{
+	position: relative;
+	min-height: 100vh;
+}

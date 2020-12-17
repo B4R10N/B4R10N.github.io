@@ -98,7 +98,7 @@ body
 
 footer
 {
-	position: static;
+	position: absolute;
 	bottom: 0;
 	width: 98.5%;
 	height:30px;
